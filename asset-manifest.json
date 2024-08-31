@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Venera_design/static/css/main.48b85e7a.css",
-    "main.js": "/Venera_design/static/js/main.dbf6f4f3.js",
+    "main.js": "/Venera_design/static/js/main.7667eeba.js",
     "static/media/test.jpg": "/Venera_design/static/media/test.9994187561652b4e0a9b.jpg",
     "static/media/Портфолио.jpg": "/Venera_design/static/media/Портфолио.8e5f89ab34c939b6fc26.jpg",
     "static/media/BG_header_mobile.jpg": "/Venera_design/static/media/BG_header_mobile.2ad81f86e4f4dc986fec.jpg",
@@ -9,12 +9,13 @@
     "static/media/Наши_услуги.webp": "/Venera_design/static/media/Наши_услуги.07410133000292e43420.webp",
     "static/media/clients.png": "/Venera_design/static/media/clients.e584a411696704e378de.png",
     "static/media/BG_contacts.jpg": "/Venera_design/static/media/BG_contacts.f4674a9b9016a8e7d898.jpg",
+    "static/media/tube-spinner.svg": "/Venera_design/static/media/tube-spinner.130a0ba8db155f5f431fb073190b0e19.svg",
     "index.html": "/Venera_design/index.html",
     "main.48b85e7a.css.map": "/Venera_design/static/css/main.48b85e7a.css.map",
-    "main.dbf6f4f3.js.map": "/Venera_design/static/js/main.dbf6f4f3.js.map"
+    "main.7667eeba.js.map": "/Venera_design/static/js/main.7667eeba.js.map"
   },
   "entrypoints": [
     "static/css/main.48b85e7a.css",
-    "static/js/main.dbf6f4f3.js"
+    "static/js/main.7667eeba.js"
   ]
 }
