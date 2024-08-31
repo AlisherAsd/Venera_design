@@ -1,0 +1,109 @@
+.HomePage_Container {
+    min-height: 800px;
+    text-align: center;
+}
+
+.Header-logo-Home {
+    background-image: url('../../IMG/BG_header.webp');
+    background-size: cover;
+    padding: 30%;
+}
+
+.Header-title {
+    padding: 100px;
+}
+.Header-title h1 {
+    font-size: 80px;
+}
+
+@media screen and (max-width: 680px) {
+    .Header-title h1 {
+        font-size: 30px;
+    }
+    .Header-title p {
+        color: grey;
+        width: 80%;
+        padding: 20px;
+        margin: auto;
+    }
+    .Header-logo-Home {
+        background-image: url('../../IMG/BG_header_mobile.jpg');
+        padding-bottom: 80%;
+        background-size: cover;
+    }
+}
+.Header-title p {
+    color: grey;
+    width: 65%;
+    padding: 30px;
+    margin: auto;
+}
+
+.Header-opis {
+    padding: 70px 0px;
+    background-color: rgb(38, 38, 38);
+}
+
+.Header-opis p, h3 {
+    padding: 5px;
+    color: white;
+    width: 70%;
+    margin: auto;
+    font-weight: 900;
+}
+
+.Header-opis-2 {
+    padding-bottom: 70px;
+}
+
+.Header-opis-2 h2 {
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    font-weight: 900;
+}
+
+.Header-opis-2 h3 {
+    padding: 5px;
+    width: 70%;
+    margin: auto;
+    font-weight: 900;
+    color: rgb(122, 122, 122);
+}
+
+
+.HomePage_Container img {
+    transition: 1s; /* Время эффекта */
+    /* border-radius: 15px;
+    padding: 10px; */
+}
+.HomePage_Container img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.link-to-portfolio {
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.port-home {
+    margin-bottom: 0px;
+}
+
+.cards {
+    padding: 20px 0px;
+    margin-top: 30px;
+}
+
+.cards h1, p {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.port-home img {
+    width: 80%;
+    border-radius: 20px;
+}

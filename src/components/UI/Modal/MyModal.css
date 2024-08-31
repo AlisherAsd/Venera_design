@@ -1,0 +1,45 @@
+
+
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    z-index: 5;
+}
+
+.modal_content {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+
+.modal_content p {
+   max-width: 70%;
+   margin: auto;
+   padding: 20px 0px 20px 0px;
+   font-size: 20px;
+   color: grey;
+}
+
+.modal_content h3 {
+    max-width: 70%;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+    color: black;
+    font-size: 30px;
+ }
+
+
+
+.modal.active {
+    transform: scale(1);
+}

@@ -1,0 +1,80 @@
+.PortfolioPage_container {
+    min-height: 800px;
+    text-align: center;
+}
+
+.PortfolioPage_container img {
+    transition: 1s; /* Время эффекта */
+}
+.PortfolioPage_container img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+
+
+.lists-works {
+    padding: 50px;  
+}
+
+
+
+.lists-works img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Header-logo {
+    padding: 100px 0px 0px;
+    text-align: center;
+}
+
+
+
+.Header-logo h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.Header-logo a {
+    color: grey;
+    font-weight: 1000;
+    
+}
+
+.statistic {
+    color: rgb(82, 82, 82);
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+.statistic-line {
+    color: rgb(82, 82, 82);
+    font-weight: 1000;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.cards h2 {
+    font-size: 25px;
+    padding: 15px;
+}
+
+.cards p {
+    font-size: 20px;
+    padding: 15px;
+    color: grey;
+    width: 80%;
+}
+
+@media screen and (max-width: 680px) {
+    
+    .cards p {
+        font-size: 10px;
+        padding: 15px;
+        color: grey;
+        width: 80%;
+    }
+}
